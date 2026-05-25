@@ -1,0 +1,12 @@
+# Secrets
+Config/Secrets.xcconfig
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+build/
+
+# macOS
+.DS_Store
+build-premium.log

@@ -1,0 +1,35 @@
+{
+  "identifier" : "Pruva",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "com.pruva.premium.monthly",
+      "localizations" : [
+        { "description" : "Monthly Pruva Pro subscription", "displayName" : "Pruva Pro Monthly", "locale" : "en_US" }
+      ],
+      "productID" : "com.pruva.premium.monthly",
+      "referenceName" : "Pruva Pro Monthly",
+      "type" : "Auto-Renewable Subscription",
+      "subscription" : { "duration" : "P1M", "groupNumber" : 1 }
+    },
+    {
+      "displayPrice" : "79.99",
+      "familyShareable" : false,
+      "internalID" : "com.pruva.premium.yearly",
+      "localizations" : [
+        { "description" : "Yearly Pruva Pro subscription", "displayName" : "Pruva Pro Yearly", "locale" : "en_US" }
+      ],
+      "productID" : "com.pruva.premium.yearly",
+      "referenceName" : "Pruva Pro Yearly",
+      "type" : "Auto-Renewable Subscription",
+      "subscription" : { "duration" : "P1Y", "groupNumber" : 1 }
+    }
+  ],
+  "settings" : { "_locale" : "en_US", "_storefront" : "USA" },
+  "subscriptionGroups" : [ { "id" : "1", "localizations" : [ { "description" : "Pruva Pro", "displayName" : "Pruva Pro", "locale" : "en_US" } ], "name" : "Pruva Pro" } ],
+  "version" : { "major" : 3, "minor" : 0 }
+}
